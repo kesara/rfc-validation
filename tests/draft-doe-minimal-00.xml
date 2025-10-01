@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rfc ipr="trust200902" docName="draft-doe-minimal-00"  category="exp" submissionType= "independent" version="3">
+  <front>
+    <title abbrev="name">Minimal Draft</title>
+    <author fullname="Jane Doe">
+      <address>
+        <postal>
+          <country>NZ</country>
+        </postal>
+        <email>doe@example.org</email>
+      </address>
+    </author>
+
+    <abstract>
+      <t>Minimal</t>
+    </abstract>
+  </front>
+
+  <middle>
+    <section anchor="introduction" title="Introduction">
+      <t>Minimal draft</t>
+    </section>
+  </middle>
+
+  <back>
+  </back>
+</rfc>
