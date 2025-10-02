@@ -23,3 +23,9 @@ jobs:
         id: idnits2
         with:
           document: "./tests/*.xml"
+
+      - name: Run idnits v3
+        uses: ./idnits3/
+        id: idnits3
+        with:
+          document: "./tests/*.xml"

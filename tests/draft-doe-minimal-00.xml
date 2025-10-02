@@ -12,14 +12,22 @@
     </author>
 
     <abstract>
-      <t>Minimal</t>
+      <t>Minimal draft that passes idnits submission checks.</t>
     </abstract>
   </front>
 
   <middle>
-    <section anchor="introduction" title="Introduction">
-      <t>Minimal draft</t>
+    <section>
+      <name>Introduction</name>
+      <t>This is a minimal draft that makes idnits happy.</t>
     </section>
+    <section>
+      <name>Security Considerations</name>
+      <t>Don't try this at work.</t>
+    </section>
+    <section>
+      <name>IANA Considerations</name>
+      <t>Nothing to see here.</t>
   </middle>
 
   <back>

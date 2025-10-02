@@ -1,0 +1,19 @@
+name: "RFC Validation - idnits v3"
+description: "Perform idnits v3 checks"
+branding:
+  icon: "check-circle"
+  color: "green"
+inputs:
+  document:
+    description: "Document(s) to be validated. (default: *.xml)"
+    required: false
+    default: "*.xml"
+outputs:
+  result:
+    description: "Result of the validation checks."
+runs:
+  using: "composite"
+  steps:
+    - name: idnits v3
+      shell: bash
+      run: npx @ietf-tools/idnits ${{ inputs.document }}
