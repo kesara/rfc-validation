@@ -1,33 +1,13 @@
-name: "RFC Validation"
-description: "Perform various checks on an Internet-Draft for publishing."
+name: "RFC Validation: Stub"
+description: "Stub: Don't use this action directly."
 branding:
   icon: "check-circle"
   color: "green"
-inputs:
-  document:
-    description: "Document(s) to be validated. (default: *.xml)"
-    required: false
-    default: "*.xml"
-  idints2:
-    description: "Run idnits v2 (default: true)"
-    required: false
-    default: true
-  idints3:
-    description: "Run idnits v3 (default: false)"
-    required: false
-    default: false
-outputs:
-  result:
-    description: "Result of the validation checks."
 runs:
   using: "composite"
   steps:
-    - name: Find documents
-      shell: bash
-      run: ls ${{ inputs.document }}
-    - name: idnits v2
+    - name: Stub
       shell: bash
       run: |
-        curl -LO https://github.com/ietf-tools/idnits/raw/refs/heads/v2/idnits
-        chmod +x idnits
-        ./idnits ${{ inputs.document }}
+        echo "This is a stub"
+        exit 1

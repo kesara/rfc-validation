@@ -18,8 +18,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Run RFC Checks
-        uses: ./
-        id: rfc-validation
+      - name: Run idnits v2
+        uses: ./idnits2/
+        id: idnits2
         with:
           document: "./tests/*.xml"
