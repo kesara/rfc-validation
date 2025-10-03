@@ -5,9 +5,9 @@ branding:
   color: "green"
 inputs:
   document:
-    description: "Document(s) to be validated. (default: *.xml)"
+    description: "Document(s) to be validated. (default: *.txt)"
     required: false
-    default: "*.xml"
+    default: "*.txt"
 outputs:
   result:
     description: "Result of the validation checks."
